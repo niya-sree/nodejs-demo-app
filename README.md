@@ -11,6 +11,8 @@ Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
 1. ssh -i pem-key user-name@ec2-ip
 # Install Docker
 1. sudo apt update && sudo apt install docker.io -y
+2. sudo usermod -aG docker ubuntu - adds the user ubuntu to the docker group
+3. groups ubuntu
 # Verify docker
 1. docker --version
 #  Create project repository on GitHub and clone it
