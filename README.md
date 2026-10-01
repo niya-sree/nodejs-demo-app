@@ -45,6 +45,9 @@ Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
 1. git clone https://github.com/user-name/<repo-name>
 2. Take the source code from free resources like google.
 3. cd repo to create files.
+# Files needed to be created
+1. app.js
+2. package.json
 # Run node.js locally
 1. npm install
 2. npm test
@@ -108,8 +111,4 @@ Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
 10. stop old container
 11. remove old container
 12. start new container
-
 # END
-
-
-
