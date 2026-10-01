@@ -7,6 +7,8 @@ Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)
 4. .dockerignore file - avoids unneccesary file upload
 5. GitHub repository - to push source code and configuration files.
 6. EC2-server - run application
+# SSH into EC2 using Git Bash/mobaxterm/vs-code
+1. ssh -i pem-key user-name@ec2-ip
 # Install Docker
 1. sudo apt update && sudo apt install docker.io -y
 # Verify docker
